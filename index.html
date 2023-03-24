@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Graph</title>
+</head>
+<body>
+  <div class="diagram">
+    <map name="map">
+      <area class="pink" shape="poly" coords="257, 258, 149, 24, 211, 5, 265, 2, 329, 14, 395, 44, 458, 98, 493, 157, 507, 210, 512, 257" />
+      <area class="grey" shape="poly" coords="257, 258, 512, 257, 510, 310, 486, 373, 448, 428, 399, 472, 340, 497, 276, 513, 208, 506" />
+      <area class="green" shape="poly" coords="257, 259, 149, 24, 74, 77, 27, 141, 4, 216, 1, 281, 23, 361, 63, 425, 119, 475, 177, 499, 209, 507" />
+    </map>
+    <div class="wrapper">
+      <img src="images/graph.png" alt="" usemap="#map" />
+      <img class="darkpink dark" src="images/darkpink.svg" alt="">
+      <img class="darkgrey dark" src="images/darkgrey.svg" alt="">
+      <img class="darkgreen dark" src="images/darkgreen.svg" alt="">
+    </div>
+  </div>
+  <div class="legends">
+    <div class="legendpink legend">
+      <div class="pinkseg segment"></div>
+      <p>Розовый сегмент</p>
+    </div>
+    <div class="legendgreen legend">
+      <div class="greenseg segment"></div>
+      <p>Зеленый сегмент</p>
+    </div>
+    <div class="legendgrey legend">
+      <div class="greyseg segment"></div>
+      <p>Серый сегмент</p>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
